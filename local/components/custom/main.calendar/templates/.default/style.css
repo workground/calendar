@@ -1,0 +1,44 @@
+.month-label {
+    display: inline-block;
+    margin: 0 10px 0;
+}
+
+.slider-container {
+    text-align: center;
+}
+
+.calendar-table {
+    margin-top: 20px;
+}
+
+.calendar-table thead tr th {
+    width: 14%;
+}
+
+.label-date {
+    border: 1px solid burlywood;
+    text-align: center;
+}
+
+.label-task {
+    border: 1px solid dodgerblue;
+    margin-top: 5px;
+    padding: 2px;
+    position: relative;
+}
+
+.label-task .del {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+
+.current-month {
+    background-color: antiquewhite !important;
+}
+
+.main-calendar{
+    margin-top: 50px;
+}
